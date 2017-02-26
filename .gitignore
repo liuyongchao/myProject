@@ -122,3 +122,8 @@ v8.msi
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/启动WeX5开发工具.bat
+/启动Nginx服务.bat
+/启动PHP服务.bat
+/启动WeX5运行平台.bat
+/启动WeX5运行平台（调试模式）.bat
