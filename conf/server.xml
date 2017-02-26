@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<config> 
+  <version>5113</version>  
+  <distributed>false</distributed>  
+  <ui-server>http://localhost:8080/x5</ui-server>  
+  <!-- 以下配置只适用于BeX5 -->  
+  <default-user> 
+    <name>system</name>  
+    <password>123456</password> 
+  </default-user>  
+  <business-server>http://localhost:8080/BusinessServer</business-server>  
+  <doc-server>http://localhost:8080/DocServer</doc-server>  
+  <report-server>http://localhost:8080/ReportServer/reportservice</report-server>  
+  <auth-server>http://localhost:8080/BusinessServer</auth-server>  
+  <!--
+	<push-server>http://localhost:8080/PushServer</push-server>
+	<mqtt-server>tcp://localhost:1883</mqtt-server>
+	<external-address>[请给出服务器的外网地址]</external-address>
+	<license-server>http://localhost:9090/LicenseServer</license-server>
+	--> 
+</config>
