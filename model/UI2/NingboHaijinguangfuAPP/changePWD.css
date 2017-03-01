@@ -1,0 +1,35 @@
+.name{
+	margin-top: 20px;
+	margin-left: 30px;
+	font-size: 20px;
+	color: #ccc
+}
+.borde{
+	border-bottom: #ccc 1px solid;
+}
+.yanzheng{
+	margin-top: 40px;
+}
+.form-control{
+ 	margin-top:16px;
+	border: 0px #ccc solid;
+}
+.span_font{margin-left:20px}
+.btn{border-radius: 0px;}
+
+.input-group i{ font-size:24px;}
+
+
+.input-group .input-group-addon{ background-color:#FFFFFF; border:0; border-radius:0;}
+.input-group .form-control{ border:0; border-radius:0; color:#999;margin:0px;}
+.input-group .form-control{border-bottom:2px solid #ECEDEF;}
+.input-group .form-control:focus{ box-shadow:none; border-color:#efefef;}
+.x-control-group{margin-left:10%;}
+.s-input::-webkit-input-placeholder {color:#ECEDEF;font-weight: normal;}
+.s-input:-moz-placeholder {color: #ECEDEF;}
+.s-input::-moz-placeholder {color: #ECEDEF;}
+.s-input:-ms-input-placeholder {color: #ECEDEF;}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+background-color: #fff;
+}
+
