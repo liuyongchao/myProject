@@ -11,8 +11,8 @@ define(function(require){
 				"main" : {
 					url : require.toUrl("./main.w")
 				},
-				"detail" : {
-					url : "$UI/demo/detail.w"
+				"im" : {
+					url : require.toUrl("./im.w")
 				}
 			}
 		});
