@@ -29,6 +29,12 @@ layui.config({
   ];
   layui.config({dir:'./plugin/layui/'})
   layim.config({
+   //可同时配置多个
+	  tool: [{
+		  alias: 'code' //工具别名
+		,title: '代码' //工具名称
+		 ,icon: '&#xe64e;' //工具图标，参考图标文档
+	  }] ,
     //上传图片接口
     uploadImage: {
       url: '/upload/image' //（返回的数据格式见下文）
@@ -167,7 +173,6 @@ layui.config({
     layer.msg("do something");
   });
 });
-
 
 
 
